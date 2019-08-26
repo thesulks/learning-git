@@ -3,7 +3,7 @@ const fs = require('fs');
 const md = require('markdown-it')();
 
 const port = 3000;
-
+// markdown을 html 형식으로 변환하는 함수
 function toHtml(markdown) {
     return `
         <DOCTYPE html>
